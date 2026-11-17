@@ -1,0 +1,18 @@
+{
+  "name": "figma-vector-composer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:demo": "node scripts/build.mjs --demo",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check src/plugin.mjs && node --check src/ui.mjs && node --test tests/*.test.mjs && node scripts/build.mjs",
+    "package": "node scripts/package.mjs",
+    "package:demo": "node scripts/package.mjs --demo",
+    "assets": "python scripts/extract-assets.py",
+    "configure:demo": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/configure-demo.ps1"
+  },
+  "devDependencies": { "esbuild": "0.25.12" }
+}

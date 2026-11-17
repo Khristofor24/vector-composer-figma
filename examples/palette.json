@@ -1,0 +1,16 @@
+{
+  "id": "custom-blue",
+  "name": "Синий пример",
+  "background": [
+    "#EDF5FF",
+    "#BDD8F5",
+    "#6D9AC5"
+  ],
+  "objects": [
+    "#F4C35B",
+    "#EF8467",
+    "#3974AD"
+  ],
+  "ink": "#18344D",
+  "paper": "#FFFFFF"
+}

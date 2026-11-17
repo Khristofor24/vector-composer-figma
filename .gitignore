@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+.DS_Store
+dist/
+release/
+release/private/
+release/demo/
+private/
+*.local
+.autopilot/serve.*
+# Generated unpacked QA checkouts (the evidence report is kept separately).
+.autopilot/**/qa/source-smoke-*/
+figma-registration/
