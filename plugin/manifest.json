@@ -1,0 +1,17 @@
+{
+  "name": "Vector Composer",
+  "id": "1703137590700223750",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": [
+    "figma"
+  ],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": [
+      "https://openrouter.ai"
+    ],
+    "reasoning": "Подбор предметов через OpenRouter по запросу пользователя."
+  }
+}

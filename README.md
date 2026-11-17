@@ -4,7 +4,7 @@
 
 ## Установка и запуск
 
-1. Скачайте готовый ZIP по ссылке выше, распакуйте его и откройте папку `Vector-Composer`.
+1. Скачайте готовый ZIP по ссылке выше и распакуйте его.
 2. Откройте **Figma Desktop** и любой файл Figma Design с правом редактирования.
 3. Щёлкните правой кнопкой по свободному месту холста → **Plugins → Development → Import plugin from manifest…**. Выберите `plugin/manifest.json` из распакованной папки. Рядом должны оставаться `code.js` и `ui.html`.
 4. Запустите: **Plugins → Development → Vector Composer**.
